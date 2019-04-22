@@ -55,6 +55,7 @@ function Blog({ data }) {
             <Post>
               <HeadingSecondary>{node.frontmatter.title}</HeadingSecondary>
               <TextBody> Using: {node.frontmatter.subtitle} </TextBody>
+              <TextDate style={{float: 'right'}}>{node.frontmatter.duration}</TextDate>
               <TextDate>{node.frontmatter.date}</TextDate>
             </Post>
           </Link>
@@ -74,6 +75,7 @@ export const query = graphql`
             title
             date(formatString: "MMMM DD, YYYY")
             subtitle
+            duration
           }
           fields {
             slug

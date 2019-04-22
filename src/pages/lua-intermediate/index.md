@@ -2,7 +2,7 @@
 date: "2019-04-20"
 title: "Intermediate Game Development with lua and Love2D"
 subtitle: "lua and Love2D"
-duration: "15 minutes"
+duration: "15 minute read"
 ---
 
 # Why?

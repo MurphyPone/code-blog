@@ -24,6 +24,7 @@
     "react": "^16.8.5",
     "react-dom": "^16.8.5",
     "react-helmet": "^5.2.0",
+    "react-timeago": "^4.4.0",
     "styled-components": "^4.2.0"
   },
   "devDependencies": {

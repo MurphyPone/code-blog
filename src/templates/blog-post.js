@@ -19,6 +19,7 @@ export default ({ data }) => {
       <Layout>
         <HeadingPrimary>{post.frontmatter.title}</HeadingPrimary>
         <TextDate>{post.frontmatter.date}</TextDate>
+        <TextDate>{post.frontmatter.duration}</TextDate>
         <TextBody dangerouslySetInnerHTML={{ __html: post.html }} />
       </Layout>
     </>
@@ -33,6 +34,7 @@ export const query = graphql`
         title
         date(formatString: "MMMM DD, YYYY")
         subtitle
+        duration
       }
     }
   }

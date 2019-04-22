@@ -2,9 +2,9 @@
 date: "2019-04-19"
 title: "Introduction to Game Development with lua and Love2D"
 subtitle: "lua and Love2D"
-duration: "15"
+duration: "15 minute read"
 ---
-![Love2D Logo]('https://love2d.org/style/logo.png')
+![Love2D Logo](https://love2d.org/style/logo.png)
 
 # What / Why?
 Lua is a relatively easy-to-learn scripting language that provides considerable power for while remaining lightweight.  <ins>[Love2D](https://love2d.org/)</ins> is a free, open source game engine for lua that streamlines the process of developing an executable lua application.
