@@ -2,6 +2,7 @@
 date: "2019-04-21"
 title: "How to Run a Hackathon"
 subtitle: "a plan, a good team, and lots of lead time!"
+duration: "15"
 ---
 
 # Why?
