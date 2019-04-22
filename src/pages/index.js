@@ -52,7 +52,7 @@ function Blog({ data }) {
         </Hero>
         { data.allMarkdownRemark.edges.map(({ node }) => (
           <Link key={ node.id } to={node.fields.slug}>
-            <Post>
+            <Post style={{borderBottom: "1px solid blue"}}>
               <HeadingSecondary>{node.frontmatter.title}</HeadingSecondary>
               <TextBody> Using: {node.frontmatter.subtitle} </TextBody>
               <TextDate style={{float: 'right'}}>{node.frontmatter.duration}</TextDate>
