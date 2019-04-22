@@ -46,7 +46,7 @@ function Blog({ data }) {
       <HeaderLogo />
       <Layout>
         <Hero>
-          <img src={avi} style={aviStyle} alt="profile image"/>
+          <img src={avi} style={aviStyle} alt="profile"/>
           <HeadingPrimary>Peter's Code Blog</HeadingPrimary>
           <TextBody>For my meager writeups</TextBody>
         </Hero>
