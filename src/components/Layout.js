@@ -1,11 +1,11 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import { StaticQuery, graphql } from 'gatsby';
-import styled from 'styled-components';
+import React from "react";
+import PropTypes from "prop-types";
+import { StaticQuery, graphql } from "gatsby";
+import styled from "styled-components";
 
-import Footer from '../components/Footer';
+import Footer from "../components/Footer";
 
-import GlobalStyles from '../elements/GlobalStyles';
+import GlobalStyles from "../elements/GlobalStyles";
 
 const Wrapper = styled.div`
   padding: 0 var(--sides-padding-desktop);
@@ -52,7 +52,7 @@ function Layout({ children }) {
 }
 
 Layout.propTypes = {
-  children: PropTypes.node.isRequired,
+  children: PropTypes.node.isRequired
 };
 
 export default Layout;

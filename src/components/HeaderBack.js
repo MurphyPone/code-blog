@@ -1,10 +1,10 @@
-import React from 'react';
-import { Link } from 'gatsby';
-import styled from 'styled-components';
+import React from "react";
+import { Link } from "gatsby";
+import styled from "styled-components";
 
-import FixedBar from '../elements/FixedBar';
+import FixedBar from "../elements/FixedBar";
 
-import ArrowBack from '../images/arrow-back.svg';
+import ArrowBack from "../images/arrow-back.svg";
 
 const Icon = styled.div`
   height: 34px;

@@ -1,15 +1,15 @@
-import React from 'react';
-import { graphql } from 'gatsby';
-import Img from 'gatsby-image';
-import styled from 'styled-components';
+import React from "react";
+import { graphql } from "gatsby";
+import Img from "gatsby-image";
+import styled from "styled-components";
 
-import Layout from '../components/Layout';
-import SEO from '../components/Seo';
-import HeaderBack from '../components/HeaderBack';
+import Layout from "../components/Layout";
+import SEO from "../components/Seo";
+import HeaderBack from "../components/HeaderBack";
 
-import HeadingPrimary from '../elements/HeadingPrimary';
-import TextBody from '../elements/TextBody';
-import Button from '../elements/Button';
+import HeadingPrimary from "../elements/HeadingPrimary";
+import TextBody from "../elements/TextBody";
+import Button from "../elements/Button";
 
 const ImgDiv = styled.div`
   margin: 0 5% 5vh 5%;
@@ -41,8 +41,8 @@ function Info({ data }) {
           <Img fluid={data.RandomPhoto.childImageSharp.fluid} />
         </ImgDiv>
         <TextBody>
-          Hi!  My name is Peter, I'm a student at Virginia Tech, studying
-          Computer Science.  On the weekends, I'm a Major League Hacking Coach,
+          Hi! My name is Peter, I'm a student at Virginia Tech, studying
+          Computer Science. On the weekends, I'm a Major League Hacking Coach,
           which means at any given time I'm probably at a hackathon, or at least
           en route to the next one.
           <br />

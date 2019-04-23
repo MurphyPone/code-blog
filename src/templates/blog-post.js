@@ -1,13 +1,13 @@
-import React from 'react';
-import { graphql } from 'gatsby';
+import React from "react";
+import { graphql } from "gatsby";
 
-import Layout from '../components/Layout';
-import HeaderBack from '../components/HeaderBack';
-import SEO from '../components/Seo';
+import Layout from "../components/Layout";
+import HeaderBack from "../components/HeaderBack";
+import SEO from "../components/Seo";
 
-import HeadingPrimary from '../elements/HeadingPrimary';
-import TextBody from '../elements/TextBody';
-import TextDate from '../elements/TextDate';
+import HeadingPrimary from "../elements/HeadingPrimary";
+import TextBody from "../elements/TextBody";
+import TextDate from "../elements/TextDate";
 
 export default ({ data }) => {
   const post = data.markdownRemark;

@@ -24,6 +24,7 @@ module.exports = {
     },
     `gatsby-plugin-catch-links`,
     `gatsby-transformer-sharp`,
+    `gatsby-plugin-sharp`,
     {
       resolve: `gatsby-plugin-sharp`,
       options: {
@@ -39,10 +40,10 @@ module.exports = {
           {
             resolve: `gatsby-remark-images`,
             options: {
-              maxWidth: 900,
+              maxWidth: 800,
               quality: 75,
-              withWebp: true,
-              linkImagesToOriginal: false,
+              linkImagesToOriginal: true,
+              showCaptions: true,
             },
           },
         ],

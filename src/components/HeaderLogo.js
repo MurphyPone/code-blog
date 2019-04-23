@@ -1,8 +1,8 @@
-import React from 'react';
-import { Link } from 'gatsby';
-import styled from 'styled-components';
+import React from "react";
+import { Link } from "gatsby";
+import styled from "styled-components";
 
-import FixedBar from '../elements/FixedBar';
+import FixedBar from "../elements/FixedBar";
 
 const HeaderLogo = styled(FixedBar)`
   background: -webkit-linear-gradient(
@@ -32,7 +32,9 @@ function Header({ data }) {
     <HeaderLogo>
       <Logo>Posts</Logo>
       <Link to="/about">
-        <h1 style={{color: 'white'}}><em>About</em></h1>
+        <h1 style={{ color: "white" }}>
+          <em>About</em>
+        </h1>
       </Link>
     </HeaderLogo>
   );

@@ -1,6 +1,6 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
-import TextBody from './TextBody';
+import TextBody from "./TextBody";
 
 export default styled(TextBody)`
   font-size: 16px;

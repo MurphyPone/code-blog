@@ -1,7 +1,7 @@
-import React from 'react';
-import styled from 'styled-components';
+import React from "react";
+import styled from "styled-components";
 
-import LinkStd from '../elements/LinkStd';
+import LinkStd from "../elements/LinkStd";
 
 const FooterContainer = styled.footer`
   padding-top: 5vh;
@@ -19,7 +19,9 @@ const FooterContainer = styled.footer`
 function Footer() {
   return (
     <FooterContainer>
-      <LinkStd href="https://murphypone.github.io/Homepage/" target="_blank">Homepage</LinkStd>
+      <LinkStd href="https://murphypone.github.io/Homepage/" target="_blank">
+        Homepage
+      </LinkStd>
     </FooterContainer>
   );
 }

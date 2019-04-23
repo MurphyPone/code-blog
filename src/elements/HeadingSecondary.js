@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export default styled.h2`
   display: block;
@@ -10,4 +10,4 @@ export default styled.h2`
   @media (max-width: 849px) {
     font-size: 30px;
   }
-  `;
+`;
