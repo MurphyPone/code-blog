@@ -118,7 +118,7 @@ layout: single
  - Look at other events’ Devpost’s for ideas for categories.
 
 <a name="social"></a>
-![branding](stock_1.jpg)
+![branding](https://github.com/MurphyPone/code-blog/tree/master/src/pages/how-to-run-a-hackathon/stock_1.jpg)
 ##Social Media
  - Ensure that hackers are ok with having their picture taken at the event via release form
     - Implement a system to distinguish people who would prefer not to be included in images (can be denoted by an alternate lanyard color, etc.)
