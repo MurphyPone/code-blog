@@ -2,14 +2,14 @@ var plugins = [{
       plugin: require('/Users/petermurphy/github/code-blog/node_modules/gatsby-plugin-react-helmet/gatsby-ssr'),
       options: {"plugins":[]},
     },{
-      plugin: require('/Users/petermurphy/github/code-blog/node_modules/gatsby-plugin-manifest/gatsby-ssr'),
-      options: {"plugins":[],"name":"Peter's Code Blog","short_name":"Code Blog","start_url":"/","background_color":"#ffffff","theme_color":"#ffffff","display":"minimal-ui","icon":"src/images/icon.png"},
-    },{
       plugin: require('/Users/petermurphy/github/code-blog/node_modules/gatsby-plugin-styled-components/gatsby-ssr'),
       options: {"plugins":[]},
     },{
       plugin: require('/Users/petermurphy/github/code-blog/node_modules/gatsby-plugin-sitemap/gatsby-ssr'),
       options: {"plugins":[]},
+    },{
+      plugin: require('/Users/petermurphy/github/code-blog/node_modules/gatsby-plugin-manifest/gatsby-ssr'),
+      options: {"plugins":[],"name":"Peter's Code Blog","short_name":"Code Blog","start_url":"/","background_color":"#ffffff","theme_color":"#ffffff","display":"minimal-ui","icon":"src/images/icon.png"},
     }]
 // During bootstrap, we write requires at top of this file which looks like:
 // var plugins = [
