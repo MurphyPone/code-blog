@@ -20,11 +20,6 @@
         "path": "/about/"
     },
     {
-        "componentChunkName": "component---cache-dev-404-page-js",
-        "jsonName": "dev-404-page-5f9",
-        "path": "/dev-404-page/"
-    },
-    {
         "componentChunkName": "component---src-templates-blog-post-js",
         "jsonName": "how-to-run-a-hackathon-5e7",
         "path": "/how-to-run-a-hackathon/"
@@ -38,5 +33,10 @@
         "componentChunkName": "component---src-templates-blog-post-js",
         "jsonName": "lua-intermediate-b89",
         "path": "/lua-intermediate/"
+    },
+    {
+        "componentChunkName": "component---node-modules-gatsby-plugin-offline-app-shell-js",
+        "jsonName": "offline-plugin-app-shell-fallback-a30",
+        "path": "/offline-plugin-app-shell-fallback/"
     }
 ]

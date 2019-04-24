@@ -29,7 +29,12 @@ module.exports = {
         path: `${__dirname}/src/`,
       },
     },
-
+    {
+      resolve: `gatsby-transformer-remark`,
+      options: {
+        plugins: ["gatsby-remark-copy-linked-files"],
+      },
+    },
     {
       resolve: `gatsby-plugin-sharp`,
       options: {
@@ -51,6 +56,12 @@ module.exports = {
               showCaptions: false,
             },
           },
+          {
+            resolve: 'gatsby-remark-copy-linked-files',
+            options: {
+              ignoreFileExtensions: [],
+            }
+          }
         ],
       },
     },

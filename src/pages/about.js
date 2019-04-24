@@ -1,6 +1,6 @@
 import React from "react";
-import { graphql } from "gatsby";
-import Img from "gatsby-image";
+// import { graphql } from "gatsby";
+// import Img from "gatsby-image";
 import styled from "styled-components";
 
 import Layout from "../components/Layout";
@@ -33,7 +33,7 @@ const ButtonWrapper = styled.div`
 
 const aboutStyle = {
   height: "100%",
-  width: "100%",
+  width: "100%"
 };
 
 function Info({ data }) {
