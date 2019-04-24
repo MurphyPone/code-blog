@@ -10,6 +10,7 @@ import HeaderBack from "../components/HeaderBack";
 import HeadingPrimary from "../elements/HeadingPrimary";
 import TextBody from "../elements/TextBody";
 import Button from "../elements/Button";
+import aboutImg from "../images/about.jpg";
 
 const ImgDiv = styled.div`
   margin: 0 5% 5vh 5%;
@@ -30,6 +31,11 @@ const ButtonWrapper = styled.div`
   }
 `;
 
+const aboutStyle = {
+  height: "100%",
+  width: "100%",
+};
+
 function Info({ data }) {
   return (
     <>
@@ -38,7 +44,7 @@ function Info({ data }) {
       <Layout>
         <HeadingPrimary>About</HeadingPrimary>
         <ImgDiv>
-          <Img fluid={data.RandomPhoto.childImageSharp.fluid} />
+          <img src={aboutImg} style={aboutStyle} alt="AboutFace" />
         </ImgDiv>
         <TextBody>
           Hi! My name is Peter, I'm a student at Virginia Tech, studying
@@ -64,14 +70,14 @@ function Info({ data }) {
 
 export default Info;
 
-export const query = graphql`
-  query {
-    RandomPhoto: file(relativePath: { eq: "about.jpg" }) {
-      childImageSharp {
-        fluid(maxWidth: 1200) {
-          ...GatsbyImageSharpFluid_withWebp
-        }
-      }
-    }
-  }
-`;
+// export const query = graphql`
+//   query {
+//     RandomPhoto: file(relativePath: { eq: "about.jpg" }) {
+//       childImageSharp {
+//         fluid(maxWidth: 1200) {
+//           ...GatsbyImageSharpFluid_withWebp
+//         }
+//       }
+//     }
+//   }
+// `;
