@@ -38,7 +38,7 @@
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
-    "dev-m": "gatsby develop -H 0.0.0.0 -p 8000",
+    "dev-m": "gatsby develop --prefix-paths -H 0.0.0.0 -p 8000",
     "deploy": "gatsby build --prefix-paths && gh-pages -d public",
     "format": "prettier --write src/**/*.{js,jsx}",
     "start": "npm run develop",

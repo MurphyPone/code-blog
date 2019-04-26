@@ -5,6 +5,19 @@ subtitle: "a plan, a good team, and lots of lead time!"
 duration: "15 minute read"
 layout: single
 ---
+<style type='text/css'>
+  a {
+    border-bottom: 1px solid hsl(240, 100%, 70%);
+    color: black;
+    text-decoration: none;
+    -webkit-transition: background-color .25s; /* Safari */
+    transition: background-color .25s;
+  }
+  a:hover {
+    background-color: hsla(189, 100%, 50%, 40%);
+  }
+</style>
+
 # Table of Contents
 [Advice](#Advice)
    - [Planning](#planning)
@@ -16,11 +29,13 @@ layout: single
    - [Judging](#judge)
    - [Prize Categories](#prizes)
    - [Social Media](#social)
+   - [Debriefing](#debrief)
 
 [Additional Resources](#addit)
 
-  [API Quick Links/Troubleshooting](#apis)  
-- [MLH Specific APIs](#mlh)
+  [API Quick Links/Troubleshooting](#quickl)  
+- [MLH Specific Resources](#mlh)
+- [General APIs](#apis)
 - [General Resources for Popular Subjects](#general)
 
 # Advice
@@ -130,33 +145,45 @@ layout: single
     - Awards Ceremony
  - Maximize user interaction by including media in all posts - people are more likely to click on posts with gifs/pictures/videos than they are a bland, text-only Tweet/link to external site
  - Remain active year-round to retain followers
- - Crowdsource publicity by creating a Snapchat <a href="https://www.snapchat.com/create/submit.html?utm_source=snapchat&utm_medium=site&utm_campaign=community#creative" style="color: blue">geofilter</a> for the weekend
+ - Crowdsource publicity by creating a Snapchat <a href="https://www.snapchat.com/create/submit.html?utm_source=snapchat&utm_medium=site&utm_campaign=community#creative">geofilter</a> for the weekend
 
-#<a name="addit"></a>Additional Resources
- - <u>[MLH Organizer Guide](https://guide.mlh.io/)</u> - The de facto textbook
+ <a name="debrief"></a>
+ ##Debriefing
+ - Reflecting on the successes and failures of your event throughout the course of planning and executing it is one of the most productive means of improving future iterations:
+    - Ask yourself/your team,
+    - Ask your participants,
+    - Ask your sponsors,
+    - Ask your volunteers...
 
-    *“Generally speaking, there are 5 things you need to organize a hackathon – a venue, food, power, wifi, and people. Getting those things right is core to having a successful event.”*
+    *"What went well?  What can we do to improve?"*
+ - Another helpful *reflection* structure follows eponymous "Start / Stop / Continue"  
 
-#<a name="apis"></a>API Quick Links/Troubleshooting
-##<a name="mlh"></a>MLH Specific APIs
+#<a name="quickl"></a>API Quick Links / Troubleshooting
+##<a name="mlh"></a>MLH Specific Resources
+-  <u>[MLH Organizer Guide](https://guide.mlh.io/)</u> - The de facto textbook
+
+   *“Generally speaking, there are 5 things you need to organize a hackathon – a venue, food, power, wifi, and people. Getting those things right is core to having a successful event.”*
  - Domain.com:
     - **Issue**: The most common issue hackers encounter with the site is caused by higher-than-expected  frequency of domain purchases from a dense region/wifi Network.  Domain.com goes into lockdown as it looks like Credit Card fraud, and just prevents any new domain acquisitions until a ‘cooldown’ period has transpired.
     - **Fix**: Unfortunately, the only consistent fix (other than calling Domain.com support) is to wait a few hours then try again.  In order to prevent this measure, encourage hackers to register their domains earlier in the event (most still won’t).  Most teams register a domain after they’ve completed their main project to serve as a landing page, which usually happens in 3-5 hour window before project submission and creates a bottleneck.  Registering your domain first thing helps mitigate this issue.
  - Google Cloud Platform
  - SnapKit - documentation is high level, currently working on a more in–depth writeup
  - BlockStack
-    - <u>[Documentation page](https://docs.blockstack.org/develop/dapp_principles.html)</u> is very beginner friendly.  
+    - [Documentation page](https://docs.blockstack.org/develop/dapp_principles.html) is very beginner friendly.  
     - User forum/Slack is super active and helpful as well
  - Amazon Web Services
  - GitHub
     - Register an account as a student and gain access to tons of educational resources and credit towards services including AWS, Heroku, etc.
-    - <u>[education.github.com](https://education.github.com/)</u>
+    - [education.github.com](https://education.github.com/)
 
 #<a name="general"></a>General Resources for Popular Subjects
+
+###<a name="apis"></a>General APIs
+ - This is a pretty [exhaustive list](https://github.com/toddmotto/public-apis) of free APIs for all types of data  
 
 ###<a name="js"></a>JavaScript
  - Daniel Shiffman / Coding Train - p5.js tutorials on hundreds of topics
 
 ###<a name="ml"></a>Machine Learning
- - Sentdex - Extensive Python ML YouTube playlist with practical implementations of popular libraries as well as explanatory  from-scratch reproductions
+ - Sentdex - Extensive Python ML YouTube playlist with practical implementations of popular libraries as well as explanatory from-scratch reproductions
  - [“Machine Learning for Beginners: An Introduction to Neural Network”](https://victorzhou.com/blog/intro-to-neural-networks/)

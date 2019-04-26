@@ -10,8 +10,7 @@ module.exports = {
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-catch-links`,
     `gatsby-transformer-sharp`,
-    `gatsby-plugin-sharp`,
-    `gatsby-plugin-offline`,
+    //`gatsby-plugin-offline`,
     `gatsby-plugin-styled-components`,
     `gatsby-plugin-sitemap`,
     `gatsby-plugin-robots-txt`,
@@ -27,12 +26,6 @@ module.exports = {
       options: {
         name: `src`,
         path: `${__dirname}/src/`,
-      },
-    },
-    {
-      resolve: `gatsby-transformer-remark`,
-      options: {
-        plugins: ["gatsby-remark-copy-linked-files"],
       },
     },
     {
@@ -52,16 +45,17 @@ module.exports = {
             options: {
               maxWidth: 900,
               quality: 100,
-              linkImagesToOriginal: true,
-              showCaptions: false,
+              linkImagesToOriginal: false,
+              withWebp: true,
+              showCaptions: true,
             },
           },
-          {
-            resolve: 'gatsby-remark-copy-linked-files',
-            options: {
-              ignoreFileExtensions: [],
-            }
-          }
+          // {
+          //   resolve: 'gatsby-remark-copy-linked-files',
+          //   options: {
+          //     ignoreFileExtensions: [],
+          //   }
+          // }
         ],
       },
     },
