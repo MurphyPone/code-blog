@@ -4,7 +4,7 @@ module.exports = {
     title: `Peter's Code Blog`,
     description: `Peter's Code Blog`,
     author: `Peter Murphy`,
-    siteUrl: `https://murphypone.github.io/code-blog`,
+    siteUrl: `https://murphypone.github.io/`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
