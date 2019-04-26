@@ -1,6 +1,6 @@
 ---
 date: "2019-04-21"
-title: "How to Run a Hackathon"
+title: "How to Improve Your Hackathon"
 subtitle: "a plan, a good team, and lots of lead time!"
 duration: "15 minute read"
 layout: single
@@ -60,6 +60,9 @@ layout: single
             - How to submit to Devpost
             - How demoing works/what judging is going to be like
             - Helpful resources for common APIs
+
+    Additionally, knowing that *likely* the majority of your participants will be first time hackers, consider sending out a "What to Expect" or "How to Get the Most Out of Your Hackathon Experience" type of email including some starter resources (see the [Genereal Resources](#general) portion of this guide) so that your hackers can hit the ground running when they arrive
+
   4. **A/V check:** Check the day before and again a few hours before they're needed
   5. **Volunteers/judges:** Check one week and one day before hand
   6. **Caterers:** (initial heads up about large order), one day and again a few hours before the expected meal time
