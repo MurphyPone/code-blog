@@ -21,7 +21,7 @@ function Header() {
     <FixedBar>
       <Link to="/">
         <Icon>
-          <img src={ArrowBack} alt="Back" />
+          <img src={ArrowBack} alt="Back" id="img" />
         </Icon>
       </Link>
     </FixedBar>

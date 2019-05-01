@@ -29,6 +29,13 @@ module.exports = {
       },
     },
     {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `blog`,
+        path: `${__dirname}/content/blog`,
+      },
+    },
+    {
       resolve: `gatsby-plugin-sharp`,
       options: {
         useMozJpeg: true,
@@ -43,11 +50,9 @@ module.exports = {
           {
             resolve: `gatsby-remark-images`,
             options: {
+              linkImagesToOriginal: true,
               maxWidth: 900,
-              quality: 100,
-              linkImagesToOriginal: false,
-              withWebp: true,
-              showCaptions: true,
+              quality: 50,
             },
           },
           // {
