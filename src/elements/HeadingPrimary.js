@@ -3,8 +3,8 @@ import styled from "styled-components";
 export default styled.h1`
   display: block;
   margin: 0 auto 5vh auto;
-  max-width: 25em;
-  font-size: 60px;
+  max-width: 1200px;
+  font-size: 55px;
   line-height: 1.1;
   letter-spacing: -3px;
   padding: 0 0 10px 0;

@@ -55,12 +55,6 @@ module.exports = {
               quality: 50,
             },
           },
-          // {
-          //   resolve: 'gatsby-remark-copy-linked-files',
-          //   options: {
-          //     ignoreFileExtensions: [],
-          //   }
-          // }
         ],
       },
     },
