@@ -124,7 +124,7 @@ This unnofficial guide is intended to serve as a supplemental resource that you 
 ##<a name="judge"></a>Judging
   - **Recommended judging systems:**
       1. Batches + spreadsheet
-        - Requires one spreadhsheet wizard who divides the teams into batches,
+        - Requires one spreahsheet wizard who divides the teams into batches,
         - Batches are distributed to judges who are instructed to pick their top choice (or top 3 depending on volume of submissions) and report back,
         - spreadsheet wizard records that judge's top 3 and assigns them another batch,
         - Repeat until each team has been seen by multiple judges/groups of judges,
@@ -138,10 +138,10 @@ This unnofficial guide is intended to serve as a supplemental resource that you 
         - Share this form with your judges,
         - This helps constrain the judges' perspectives to the criteria you deem important,
         - Removes the need for extensive deliberation as you're left with quantitative results
-      4. Checkout this [thorough writeup](https://news.mlh.io/how-to-judge-a-hackathon-finding-the-chosen-one-05-15-2014) for more detailed descriptions of how to improve the dreaded judging proces  
+      4. Checkout this [thorough writeup](https://news.mlh.io/how-to-judge-a-hackathon-finding-the-chosen-one-05-15-2014) for more detailed descriptions of how to improve the dreaded judging process  
   - **Example Demos:**
     - Snag winning projects off Devpost from other hackathons if you don’t have time to prepare projects yourself, just be sure not to misrepresent them as your own 😛
-    - Present an excellent demo, and an average demo to your judges – this gives them some becnhmarks for the quality of demos they should expect
+    - Present an excellent demo, and an average demo to your judges – this gives them some benchmarks for the quality of demos they should expect
     - Bonus: If using an automated scoring system (e.g. Google Forms), normalize the score distribution from all the judges based off the scores they give to these two example projects that way teams don’t get penalized for harsher judges, or disproportionately advantaged by easily-impressed judges
   - Keep your judging system/criteria simple: judges will only have 3-5 minutes to evaluate teams; you don’t want to bog them down with lots details to keep track of, or a non-intuitive method of recording their scores   
 
@@ -163,7 +163,7 @@ This unnofficial guide is intended to serve as a supplemental resource that you 
     - Workshops,
     - Demos,
     - Awards Ceremony
- - Maximize user engagement by including media in all posts - people are more likely to click on posts with gifs/pictures/videos than they are a bland, text-only Tweet/link to external site - hense the shameless images of from one of my hackathons in this article: you're *engaged*, can you feel it?
+ - Maximize user engagement by including media in all posts - people are more likely to click on posts with gifs/pictures/videos than they are a bland, text-only Tweet/link to external site - hence the shameless images of me at a hackathon in this article: you're *engaged*, can you feel it?
  - Remain active year-round to retain followers
  - Crowdsource publicity by creating a Snapchat [geofilter](https://www.snapchat.com/create/submit.html?utm_source=snapchat&utm_medium=site&utm_campaign=community#creative) for the weekend
 

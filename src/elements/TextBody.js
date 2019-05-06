@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export default styled.p`
+export default styled.div`
   display: block;
   line-height: 1.5;
   margin: 0 5% 5vh 5%;
