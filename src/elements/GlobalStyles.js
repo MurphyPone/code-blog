@@ -35,7 +35,7 @@ export default createGlobalStyle`
   //   margin-inline-start: 0;
   //   -webkit-margin-end: 0;
   //   margin-inline-end: 0;
-  // 
+  //
   //   display: inline-block;
   //   font-size: inherit;
   // }

@@ -12,6 +12,9 @@ import TextBody from "../elements/TextBody";
 import TextDate from "../elements/TextDate";
 import avi from "../images/avi.jpeg";
 
+import 'prismjs/themes/prism-tomorrow.css';
+import 'prismjs/plugins/line-numbers/prism-line-numbers.css'
+
 const Hero = styled.div`
   margin-bottom: 20vh;
 

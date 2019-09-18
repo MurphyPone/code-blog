@@ -1,5 +1,5 @@
 ---
-date: "2019-04-21"
+date: "2019-09-17"
 title: "How to Improve Your Hackathon"
 subtitle: "a plan, a good team, and lots of lead time!"
 duration: "15 minute read"
@@ -16,6 +16,13 @@ layout: single
   a:hover {
     background-color: hsla(189, 100%, 50%, 40%);
   }
+
+  table th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
 </style>
 
 This unnofficial guide is intended to serve as a supplemental resource that you can use to improve your hackathon once you have the basics down and are looking for ways to improve.  This is by no means an exhaustive description of the *perfect* hackathon, rather just a collection of tips and techniques I've observed that someone hopefully finds useful👍   
@@ -24,6 +31,7 @@ This unnofficial guide is intended to serve as a supplemental resource that you 
 ##Advice
    - [Planning](#planning)
    - [Opening/Closing Ceremony](#opening)
+   - [Sponsorship](#sponsorship)
    - [Signage](#sign)
    - [Devpost](#devp)
    - [User Experience](#ux)
@@ -77,6 +85,74 @@ This unnofficial guide is intended to serve as a supplemental resource that you 
     - Promotes taking pride in your work,
     - Quantifies your efforts which is incredibly useful when soliciting school admin/superior powers for support: *“Last year, our team collectively volunteered x thousand hours towards the success of our event across A, B, C, D categories.”*
 
+<a name="sponsorship"></a>
+##Sponsorship
+The primary goal of your fundraising efforts should be to establish mutually beneficial relationships with the companies that work with your event - sponsorship outreach should be conducted in such a way that you demonstrate the value of your event, not as a means of gaining charitable contributions.  
+
+It's worth noting that these efforts should begin at least one fiscal quarter prior to your event. Most companies have a more flexible budget at the start of a quarter rather than the end.  Additionally, the winter holiday season (spanning from Thanksgiving through to the New Year) is effectively a dead zone as far as cold-call/email responses go.   
+
+- **Cold Calls / Emails** - this tends to be the primary avenue for gaining sponsorship, especially for younger events.  This process (and the whole sponsorship effort) can be broken down into the following steps:
+  1. **Initial Contact** following a generic template that has been tailored to specific companies sent from personal emails to avoid spam filters - [see example below](#template_email)
+
+  >- Two-ish follow-up emails at regular _professional_ intervals if you don't hear back at first
+
+  2. **The Pitch** - If a company expresses interest in your event, your goal is to schedule a phone call to further discuss the benefits of a partnership, and send them the prospectus so that they have an idea of what price points are
+      - STRESS that these numbers are just loose guidelines and that your team is flexible and _wants_ a partnership with them
+
+    >- The Prospectus shouldn't be the end-all be all, it's merely the jumping-off point for negotiations to establish a ~long-lasting partnership~  
+
+    3. **Confirmation** - includes the invoice for the agreed upon amount if step 2 went well
+    4. **Pre-event "Concierge"** - a week or two prior to the event, the point of contact with said sponsor should send a warm email re-iterating how they can maximize their presence and experience at the event, letting them know that they will be their personal contact if they have any questions during the event, etc.
+
+    >- This person should also welcome them at the venue and get them settled at the table/generally make them feel at home.
+
+- **Using Your Network** - make use of LinkedIn, school career fairs, friends, school partners, anyone who might be interested
+- **The Call** - If you are able to schedule a call with a potential sponsor, the following script has proven to be successful:
+  - "Hi, thanks for being available to talk"
+  - Info about event
+  - Info about yourself and role in the event
+  - ASK about their goals, recruiting objectives, desired skill sets, products/services they're looking to introduce; what would they like to get out of a partnership with your event?
+      - Based off their response, pitch them the prospectus tier that most similarly aligns with goals
+      - Be flexible within reason, and don't be afraid to turn down unreasonable negotiations and companies as a whole - remember that your #1 priority is the participants, don't forfeit the integrity of your event's purpose for a sponsor
+
+- **The Prospectus** - Generally speaking, a simple prospectus formula is as follows (with more creative, on-brand names):
+
+| Tier  | Formula |  
+|-------|------------|
+| Lower | one-off items: stickers, a meal "presented by x", swag  |
+| Low   | $BUDGET / $NUM\_EXPECTED_SPONSORS / 2                   |
+| Mid   | $BUDGET / $NUM\_EXPECTED_SPONSORS                       |
+| High  | $BUDGET / $NUM\_EXPECTED_SPONSORS x 2.5                 |
+
+
+  <a name="template_email"></a>
+
+
+## Template Sponsorship Email
+  >Hi `#CONTACT_NAME`,
+
+>**[[If a sponsor from a previous year]]**
+
+>Firstly, the `$EVENT_NAME` team would like to thank `$COMPANY_NAME` for their generous contributions towards making `$EVENT_NAME` successful in the past. We are back this year with a great team and new ideas, and we would love to have you and your company `$COMPANY_NAME`, be a part of it!  
+
+>**[[Else]]**
+
+>Are you interested in growing your brand recognition and finding talented students who will enhance your company? My name is `$NAME` and I’m a student at `$SCHOOL` helping to organize `$EVENT_NAME`, our `$X`th annual hackathon. For `$DURATION` hours, approximately `$LOWER_BOUND` to `$LOWER_BOUND` innovators from colleges across the `$REGION` will develop hardware and software solutions to problems they identify within their community. Hackathons are a great way to increase company presence on our campus and provide the opportunity to talk to motivated students majoring in Computer Science, Computer Engineering, `$FIELDS_THAT_INTEREST_COMPANY`, and more!
+
+>`<Insert tagline about why company would be a great fit for your event>`
+
+>We look forward to working with you to meet your recruiting objects <and introducing X service Company is releasing if relevant OR integrating your products into our event -- This last line in general should be personalized>.  
+
+>Feel free to checkout our website:`$WEBSITE`, and please let us know if you have any questions.
+
+>Thank you,
+
+>`$NAME`
+
+>`$EVENT` Sponsorship Team
+
+
+
 <a name="opening"></a>
 ![speech](./speech.jpg)
 ##Opening/Closing Ceremony
@@ -96,6 +172,8 @@ This unnofficial guide is intended to serve as a supplemental resource that you 
  - Utilize the Devpost [help resources](https://help.devpost.com/hc/en-us), their dev team is super responsive and helpful
 
 ##<a name="ux"></a>User Experience
+ - In general, the best hackathon experience is derived from **nailing the basics** more so than the bells and whistles we often race towards upon securing funding
+    - *“Generally speaking, there are 5 things you need to organize a hackathon – a venue, food, power, wifi, and people. Getting those things right is core to having a successful event.”*
  - Prepare as many secondary events/activities as you can manage based on personnel and resources
     - Don’t detract from the hacking purpose of the event, but provide fun activities throughout the weekend that offer a break from coding
   - Workshops:
@@ -104,9 +182,13 @@ This unnofficial guide is intended to serve as a supplemental resource that you 
     - Practice during regular meetings over the months between events
     - Sponsors are great for providing higher level workshops
     - [MLH localhost!!](https://localhost.mlh.io/)
+  - Travel Reimbursements:
+    - Budget allowing, a great way to increase the accessibility of your event and overall attendance is to offer travel reimbursements to folks traveling any distance that exceeds a threshold that makes sense for your event
+    - Consider decreasing the budget for prizes to create/bolster this fund as it improves everyone's experience, rather than just the winners
   - Smash/ping pong tournaments are always hits
   - Trivia and yoga on the rise as well
   - Bingo (sheets at every table based on hackathon achievables e.g. “submit to devpost,” “attend a workshop,” "take out the trash" etc.)
+  - Bob Ross follow along with MS Paint
   - Raffles/door prizes:
       - "big" prize for people who checked in on time
       - small (hourly?) prizes - "vintage" stickers from past iterations of your event!
@@ -182,9 +264,7 @@ This unnofficial guide is intended to serve as a supplemental resource that you 
 #<a name="quickl"></a>API Quick Links / Troubleshooting
 ##<a name="mlh"></a>MLH Specific Resources
 - [MLH Organizer Guide](https://guide.mlh.io/) - The de facto textbook.
-
-   *“Generally speaking, there are 5 things you need to organize a hackathon – a venue, food, power, wifi, and people. Getting those things right is core to having a successful event.”*
-
+- [HackCon Talks ](https://www.youtube.com/playlist?list=PLPDgudJ_VDUfCz25s9IiUEWr_7yh9xRlY&utm_source=MLH+Hackcon+VII+Attendees&utm_campaign=a66dd570c4-EMAIL_CAMPAIGN_2018_08_15_02_15_COPY_01&utm_medium=email&utm_term=0_fad55e1b79-a66dd570c4-60985485&mc_cid=a66dd570c4&mc_eid=d78e44efe1) - A playlist of super helpful talks given by hackathon organizers across the world detailing successful tactics from inclusion, to sponsorship, to branding, and more!
  - Domain.com:
     - **Issue**: The most common issue hackers encounter with the site is caused by higher-than-expected  frequency of domain purchases from a dense region/wi-fi Network.  Domain.com goes into lockdown as it looks like Credit Card fraud, and just prevents any new domain acquisitions until a ‘cooldown’ period has transpired.
     - **Fix**: Unfortunately, the only consistent fix (other than calling Domain.com support) is to wait a few hours then try again.  In order to prevent this measure, encourage hackers to register their domains earlier in the event (most still won’t).  Most teams register a domain after they’ve completed their main project to serve as a landing page, which usually happens in 3-5 hour window before project submission and creates a bottleneck.  Registering your domain first thing helps mitigate this issue.

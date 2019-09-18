@@ -6,6 +6,7 @@ export default styled.h2`
   line-height: 1.2;
   margin-bottom: 2.5vh;
   letter-spacing: -1.5px;
+  color: var(--primary-color-light);
 
   @media (max-width: 849px) {
     font-size: 30px;
