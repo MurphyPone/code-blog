@@ -234,7 +234,6 @@ It's worth noting that these efforts should begin at least one fiscal quarter pr
     - Most Unique Hack
  - Look at other events’ Devpost’s for ideas for categories.
 
-<a name="social"></a>
 ![branding](./stock_1.jpg)
 ##Social Media
  - Ensure that hackers are ok with having their picture taken at the event via release form

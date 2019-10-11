@@ -8,6 +8,8 @@ import SEO from "../components/Seo";
 import HeadingPrimary from "../elements/HeadingPrimary";
 import TextBody from "../elements/TextBody";
 import TextDate from "../elements/TextDate";
+import "katex/dist/katex.min.css"
+
 
 export default ({ data }) => {
   const post = data.markdownRemark;
