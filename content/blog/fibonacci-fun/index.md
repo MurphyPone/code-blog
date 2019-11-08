@@ -80,7 +80,7 @@ print(mi, km)
 ```
 Executing our program now we should see `5 8.0467`, and validating our results with a quick Google, we can see that Fibonacci may have been on one.
 
-![img1](./img1.png)
+![img1](https://i.imgur.com/LQ3njx8.png)
 
 (This is because the a decimal approximation of the Golden Ratio is _very_ close to our `km_per_mi` constant: 1.60934)
 

@@ -154,7 +154,7 @@ It's worth noting that these efforts should begin at least one fiscal quarter pr
 
 
 <a name="opening"></a>
-![speech](./speech.jpg)
+![speech](https://i.imgur.com/vcfklte.jpg)
 ##Opening/Closing Ceremony
  - Open with your mission/goals for the participants over the weekend, not logistics – this is your chance to get the participants fired up!
  - Close with logistics (they're still important)
@@ -234,7 +234,7 @@ It's worth noting that these efforts should begin at least one fiscal quarter pr
     - Most Unique Hack
  - Look at other events’ Devpost’s for ideas for categories.
 
-![branding](./stock_1.jpg)
+![branding](https://i.imgur.com/4LutZJH.jpg)
 ##Social Media
  - Ensure that hackers are ok with having their picture taken at the event via release form
     - Implement a system to distinguish people who would prefer not to be included in images (can be denoted by an alternate lanyard color, etc.)

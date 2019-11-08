@@ -26,7 +26,7 @@ These trends can be fairly obvious for two and even three dimensional data as cl
 
 This article aims to flesh out a simple, albeit inefficient, KNN algorithm as well as a real-time two dimensional graph that depicts what the algorithm is doing beneath the hood.  The end result is inspired by this awesome [Observable article by Nikhil Thorat](https://observablehq.com/@nsthorat/how-to-build-a-teachable-machine-with-tensorflow-js).  
 
-![Fig 1](./fig1.png)
+![Fig 1](https://i.imgur.com/VgulRIH.png)
 
 # Setup
 The setup for this project is pretty straightforward – we'll be using the p5.js library to streamline the visual aspects of the project and vanilla JavaScript for the rest of the project.
